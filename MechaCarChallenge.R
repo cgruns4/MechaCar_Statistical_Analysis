@@ -12,11 +12,10 @@ Suspension_Coil <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFacto
 
 Coil_df <-data.frame(Suspension_Coil)
 
-total_summary <- Coil_df %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') 
+total_summary <- Coil_df %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') 
 summary(total_summary)
 
-
-lot_summary <- Coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
+lot_summary <- Coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
 summary(lot_summary)
 
 
