@@ -12,9 +12,8 @@
 
 
 ## Summary Statistics on Suspension Coils
-- write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+- The current manufacturing data, in its totality, does not meet the design specification requirements due to the variance of Lot 3 exceeding the 100 pounds per square inch variance guideline.  Lot 1 + 2 satisfied the criteria, but Lot 3 had a variance above the minimum requirement. 
   
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current    manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ![total_summary](https://user-images.githubusercontent.com/71041680/119747035-d46cc200-be5f-11eb-94cd-7ebe824636ec.png)
 
