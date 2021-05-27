@@ -19,7 +19,7 @@
 
 
 ## T-Tests on Suspension Coils
-- then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+- Lots 1 & 2 are similar to the population mean (1500 psi), Lot 3 has a mean of 1496.14 and a much wider 95% confidence interval.
 
 ![t_tests](https://user-images.githubusercontent.com/71041680/119747125-0da53200-be60-11eb-8dd1-c6522dfffc66.png)
 
